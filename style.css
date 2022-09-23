@@ -17,3 +17,61 @@ html { box-sizing: border-box; }
 body {
 	background-color: #bdc3c7;
 }
+
+.profil{
+	width: 250px;
+	background-color: #31363b;
+	color: white;
+	margin: 30px
+}
+
+.foto{
+	width: 250px;
+	padding:0;
+}
+
+.obsah{
+	padding: 0 20px 0 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.logo{
+	background-color: #b92e81;
+	border-radius: 50%;
+	position: relative;
+	left: 175px;
+	bottom: 30px
+}
+
+.hlavicka{
+	height: 180px;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px
+}
+
+.portfolio li{
+	display: inline-block;
+  }
+  
+  .portfolio{
+	  display: inline-block;
+	  margin: 0;
+	  padding: 10px;
+	  text-align: center;
+	  background-color: #31363b;
+  }
+  
+  .portfolio a {
+	  color: white;
+	  text-decoration: none;
+	  margin:0;
+	  padding:10px ;
+  }
+  
+  .portfolio :hover{
+	  background-color: #e74c3c;
+  }
